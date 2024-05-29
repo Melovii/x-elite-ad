@@ -1,4 +1,73 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
+    flex-direction: column;
+}
+
+/* header panel */
+.header {
+display: flex;
+justify-content: space-around;
+}
+
+.right-links {
+    display: flex;
+    gap: 32px;
+}
+
+/* main panel */
+.main-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: row;
+}
+
+#paragraph1 {
+    max-width: 400px;
+}
+
+/* info panel */
+.info-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+}
+
+/* quote panel */
+.quote-panel {
+    display: flex;
+    justify-content: space-around;
+}
+
+#paragraph2 {
+    max-width: 600px;
+}
+
+/* bottom panel */
+.bottom-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.left-text {
+    max-width: 550px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
 }
